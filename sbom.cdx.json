@@ -1,0 +1,81 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:83918a32-b799-566f-90f9-aaf67f25d24a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:33:01Z",
+    "component": {
+      "type": "application",
+      "name": "L_EDGEAGENT",
+      "version": "c30b115286e0",
+      "bom-ref": "pkg:generic/anticloud/L_EDGEAGENT@c30b115286e0",
+      "purl": "pkg:generic/anticloud/L_EDGEAGENT@c30b115286e0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "c30b115286e000e98711fae5e85993547b73d826"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/huggingface/smolagents.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "huggingface-hub",
+      "version": ">=0.31.2",
+      "purl": "pkg:pypi/huggingface-hub@0.31.2",
+      "bom-ref": "pypi/huggingface-hub@>=0.31.2"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": ">=2.32.3",
+      "purl": "pkg:pypi/requests@2.32.3",
+      "bom-ref": "pypi/requests@>=2.32.3"
+    },
+    {
+      "type": "library",
+      "name": "rich",
+      "version": ">=13.9.4",
+      "purl": "pkg:pypi/rich@13.9.4",
+      "bom-ref": "pypi/rich@>=13.9.4"
+    },
+    {
+      "type": "library",
+      "name": "jinja2",
+      "version": ">=3.1.4",
+      "purl": "pkg:pypi/jinja2@3.1.4",
+      "bom-ref": "pypi/jinja2@>=3.1.4"
+    },
+    {
+      "type": "library",
+      "name": "pillow",
+      "version": ">=10.0.1",
+      "purl": "pkg:pypi/pillow@10.0.1",
+      "bom-ref": "pypi/pillow@>=10.0.1"
+    },
+    {
+      "type": "library",
+      "name": "python-dotenv",
+      "version": "unspecified",
+      "purl": "pkg:pypi/python-dotenv",
+      "bom-ref": "pypi/python-dotenv@unspecified"
+    }
+  ]
+}
